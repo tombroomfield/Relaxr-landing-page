@@ -1,0 +1,166 @@
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+  background: url(../images/header_bg.jpg) top center;
+  padding: 30px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  padding: 120px;
+}
+
+a {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 10px 0;
+  width: 150px;
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+
+.buttonYellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+#benefits {
+  background: #f0efef;
+  margin: 0 auto;
+  padding: 30px 0 30px 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+  margin: 20px 40px 10px 20px;
+}
+
+section#benefits p {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 25px;
+  width: 400px;
+  color: #606161;
+  margin: 0px 40px 20px 20px;
+}
+
+ul {
+  list-style-type: disc;
+  line-height: 25px;
+  color: #033048;
+  width: 250px;
+  margin: 20px 0 0 80px;
+}
+
+li {
+  color: #606161;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+section#testimonial {
+  color: #606161;
+  font-size: 18px;
+  text-align: center;
+  padding: 50px 0 50px;
+  line-height: 25px;
+  min-height: 200px;
+  background: url(../images/testimonial_bg.jpg);
+}
+
+section#testimonial p {
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+section#testimonial span {
+  font-weight: 600;
+  display: block;
+}
+
+section#signUp {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+}
+
+.buttonBlue {
+  background: #033048;
+  color: #606161;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #f9e42e;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+  line-height: 50px;
+}
+
+footer a {
+  display: inline;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+footer p {
+  color: #fff;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+
+
+
+
+
